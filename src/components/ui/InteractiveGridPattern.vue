@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import { cn } from "../../lib/utils";
+import { cn } from "@/lib/utils";
 import type { HTMLAttributes } from "vue";
 import { computed,ref } from "vue"
 
@@ -46,7 +46,7 @@ function getY(index: number) {
 }
 
 const svgClass = computed(() =>
-    cn("absolute inset-0 h-full border border-gray-400/30", className),
+    cn("absolute inset-0 h-full -top-10 border border-gray-400/30", className),
 );
 
 function getRectClass(index: number) {

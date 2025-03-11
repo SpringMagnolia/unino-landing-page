@@ -1,5 +1,5 @@
 import {createApp} from 'vue'
-import './style.css'
+import './assets/index.css'
 import App from './App.vue'
 import VueGtag from "vue-gtag-next";
 

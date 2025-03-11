@@ -3,10 +3,10 @@
 </script>
 
 <template>
-  <div class="flex flex-col gap-y-4 items-center justify-center py-20 relative text-zinc-800 px-6">
+  <div class="flex flex-col gap-y-4 items-center justify-center py-32 relative text-zinc-800 px-6">
     <h4 class="text-3xl z-10 font-semibold">Contact US</h4>
 
-    <p>Have questions, suggestions, or feedback? We'd love to hear from you!</p>
+    <p class="text-center text-lg text-zinc-600">Have questions, suggestions, or feedback? We'd love to hear from you!</p>
 
     <div class="flex gap-x-2 items-center">
       <svg fill="none" height="18" stroke="currentColor" stroke-linecap="round"

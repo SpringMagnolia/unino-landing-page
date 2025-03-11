@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="flex items-center justify-center w-full pb-4 gap-x-2">
+  <div class="flex items-center justify-center w-full pb-4 gap-x-2 select-none">
     <span
         class="text-gray-500 text-sm">Powered By</span>
     <svg fill="none" viewBox="0 0 345 122" width="62" xmlns="http://www.w3.org/2000/svg">

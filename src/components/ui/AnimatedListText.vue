@@ -126,7 +126,7 @@ onUnmounted(() => {
       @mouseleave="resumeCycle"
   >
     <div class="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 transform text-center">
-      <span class="font-mono font-semibold text-primary">
+      <span class="font-mono font-semibold text-lg">
         {{ staticPrefix }}
       </span>
     </div>

@@ -3,15 +3,16 @@ import AnimatedListText from "./ui/AnimatedListText.vue";
 import DownloadGroupButton from "./ui/DownloadGroupButton.vue";
 
 const text = [
-  'APPs to install everywhere just for files sharing',
-  "Cloud to upload/store files just for sharing",
+  'APPs to install everywhere',
+  "Cloud to upload/store files",
+  'Portable drive to plug in'
 ]
 
 
 </script>
 
 <template>
-  <div class="flex flex-col gap-y-16 items-center pt-20 pb-10 relative">
+  <div class="flex flex-col gap-y-16 items-center pt-20 relative">
 
     <svg class="z-10" fill="none" height="54" viewBox="0 0 188 54" width="188" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -35,8 +36,8 @@ const text = [
         <template v-slot:dropdown>
           <a
               class=" w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 flex items-center gap-x-2 cursor-pointer"
-              role="menuitem"
-              href="/static/Unino-Windows-x64.zip" download="Unino-x64.zip"
+              download="Unino-x64.zip"
+              href="/static/Unino-Windows-x64.zip" role="menuitem"
           >
             <svg fill="fill-zinc-900" height="18" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -49,8 +50,8 @@ const text = [
           </a>
           <a
               class="flex items-center gap-x-2 w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 cursor-pointer"
-              role="menuitem"
-              href="/static/Unino-Windows-Arm64.zip" download="Unino-Arm64.zip"
+              download="Unino-Arm64.zip"
+              href="/static/Unino-Windows-Arm64.zip" role="menuitem"
           >
             <svg fill="fill-zinc-900" height="18" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -75,8 +76,8 @@ const text = [
         <template v-slot:dropdown>
           <a
               class="flex items-center gap-x-2 w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 cursor-pointer"
-              role="menuitem"
-              href="/static/Unino-macOS-Arm.zip" download="Unino-Apple-silicon.zip"
+              download="Unino-Apple-silicon.zip"
+              href="/static/Unino-macOS-Arm.zip" role="menuitem"
           >
             <svg fill="fill-zinc-900" height="18" viewBox="0 0 18 20" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -89,8 +90,8 @@ const text = [
           </a>
           <a
               class=" w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 flex items-center gap-x-2 cursor-pointer"
-              role="menuitem"
-              href="/static/Unino-macOS-Intel.zip" download="Unino-Intel.zip"
+              download="Unino-Intel.zip"
+              href="/static/Unino-macOS-Intel.zip" role="menuitem"
           >
             <svg fill="fill-zinc-900" height="18" viewBox="0 0 18 20" xmlns="http://www.w3.org/2000/svg">
               <path
